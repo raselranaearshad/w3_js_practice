@@ -1,0 +1,1 @@
+document.getElementById("change").innerHTML = "JavaScript can change HTML content.";
