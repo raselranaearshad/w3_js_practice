@@ -27,3 +27,6 @@ let total = price1 + price2;
 /* The variable total is declared with the let varibale.
     The value "total" can be changed. */
 document.write(total + '$');
+
+// One Statement, Many Variables
+let person = "John Doe", carName = "Volvo", price = 200; 
