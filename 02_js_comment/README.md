@@ -28,3 +28,19 @@ document.getElementById("myP").innerHTML = "My Frist paragraph."
 > Note: 
 It is most common to use single line comments.
 Block comments are often used for formal documentation.
+
+## Using Comments to Prevent Execution
+* Using comments to prevent execution of code is suitable for code tasting.
+* Adding ```//``` in front of a code line changes the code lines from an executable line to a comment.
+### Example:
+```js
+//document.getElementById("myH").innerHTML = "My First Page";
+document.getElementById("myP").innerHTML = "My first paragraph.";
+```
+This example uses a comment block to prevent execution of multiple lines:
+```js
+/*
+document.getElementById("myH").innerHTML = "My First Page";
+document.getElementById("myP").innerHTML = "My first paragraph.";
+*/
+```
