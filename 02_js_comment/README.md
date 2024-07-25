@@ -28,5 +28,3 @@ document.getElementById("myP").innerHTML = "My Frist paragraph."
 > Note: 
 It is most common to use single line comments.
 Block comments are often used for formal documentation.
-
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
