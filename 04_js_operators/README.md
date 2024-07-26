@@ -28,3 +28,11 @@ let y = 2;
 // Assign the value x + y to z:
 let z = x + y;
 ```
+### JavaScript Comparison Operators
+Example:
+```JavaScript
+let text1 = "A";
+let text2 = "B";
+// (<) this is a comparison operator.
+let result = text1 < text2;
+```
