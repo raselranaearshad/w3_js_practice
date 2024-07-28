@@ -74,3 +74,21 @@ Example:
 ```js
 const carName = ["Honda", "Ford", "BMW"];
 ```
+### JavaScript Object
+* JavaScript objects are written with curly braces `{}`.
+* Object properties are written as `name:value` pairs, separated by commas.
+
+Example:
+```js
+const person = {firstName: "Rasel", age:50, eyeColor:"Blue"};
+```
+> The object **(person)** in the example above has 3 properties: firstName, age, and eyeColor.
+
+### JavaScript Undefind
+* In JavaScript, a variable without a value, has the value `undefined`. The type is also `undefined`.
+* Any variable can be emptied, by setting the value to `undefined`. The type will also be `undefined`.
+
+Example: 
+```js 
+let car; // Value is undefined, type is undefined 
+```
