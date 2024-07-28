@@ -36,7 +36,7 @@ let x = 34.36;
 // without decimals:
 let y = 36;
 ```
-### Exponentical Notation
+### Exponential Notation
 Extra large or extra small numbers can be written with scientific (exponential) notation:
 
 Example:
