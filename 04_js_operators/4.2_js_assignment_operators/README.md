@@ -28,3 +28,13 @@ Assignment operators assign values to JavaScript Variables.
 |--------|-------|-------|
 |&&=|x &&= y|x = x && (x = y)|
 |??=|x ??= y|x = x ?? (x = y)|
+
+### The &&= Operator
+* The **Logical AND Assignment Operator** is used between two values.
+* If the first value is true, the second value is assigned.
+### The ||= Operator
+* The **Logical OR Assignment Operator** is used between two values.
+* If the first value is false, the second value is assigned.
+### The ??= Operator
+* The **Nullish Coalescing Assignment** operator is used between two values.
+* If the first value is undefined or null, the second value is assigned.

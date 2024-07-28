@@ -58,3 +58,23 @@ C |= 5;
 The Bitwise OR Assignment Operator does a bitwise OR operation on two operands and assigns the result to the variable.
 */
 document.write(C + "<br>")
+
+// Bitwise XOR Assignment Operator:
+let d = 100;
+d ^= 5;
+document.write(d + "<br>")
+
+// Logical AND Assignment Operator:
+let e = 10;
+e &&= 5;
+document.write(e + "<br>")
+
+// Logical OR Assignment Operator:
+let f;
+f ||= 36;
+document.write(f + "<br>");
+
+// Nullish Coalescing Assignment Operator:
+let g;
+g ??= 369;
+document.write(g);
