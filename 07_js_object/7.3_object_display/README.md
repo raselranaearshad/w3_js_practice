@@ -50,3 +50,27 @@ const myObj = {
 const myArra = Object.value(myObj);
 document.write(myArra);
 ```
+
+### Object Display Using Object.entries()
+`Object.entries()` makes it simple to use objects in loops:
+```js
+// Create an Object
+const fruits = {Apple:200,Banana:300,Orange:250,Cherry:310};
+let result = "";
+// Create a loop over Object
+for (let [fruit,amout] of Object.entries(fruits)) {
+  result += fruit + ": " + amout + "<br>"
+};
+document.write(result);
+```
+
+### Display Object using JSON.stringify()
+* JavaScript objects can be converted to a string with JSON method `JSON.stringify()`.
+* `JSON.stringify()` is included in JavaScript and supported in all major browsers.
+```js
+const myCars = {BMW: 100, Ford: 152, Honda: 210};
+// Creating Stringify()
+let myString = JSON.stringify(myCars);
+document.write(myString)
+```
+> NOTE: The result will be a string written in JSON notation: {"BMW":100,"Ford":152,"Honda":210}

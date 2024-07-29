@@ -27,7 +27,7 @@ for (let x in userInfo) {
 };
 document.write(show + "<br>");
 
-// Using Object.values()
+//Object Display using Object.values()
 const myName = {
   name: "Charle",
   age: 50,
@@ -35,4 +35,23 @@ const myName = {
 };
 // Creating an Array
 const myArr = Object.values(myName);
-document.write(myArr);
+document.write(myArr + "<br>");
+
+//Object display using Object.entries()
+const fruits = {
+  Apple: 300,
+  Banana: 500,
+  Orange: 250,
+  Carry: 200
+};
+let result = "";
+for (let [fruit, amount] of Object.entries(fruits)) {
+  result += fruit + ": " + amount + "<br>"
+};
+document.write(result);
+
+//Display Object Using JSON.stringify()
+const myCars = { Ford: 300, Bmw: 250, Honda: 100 };
+// Stringify Object
+let myStr = JSON.stringify(myCars);
+document.write(myStr);
