@@ -1,0 +1,52 @@
+# JavaScript Display Objects
+Displaying a JavaScript object will output `[object Object]`.
+```js
+document.write(objectName);
+```
+## How to Display JavaScript Objects?
+* Displaying the Object Properties by name
+* Displaying the Object Properties in a Loop
+* Displaying the Object using Object.values()
+* Displaying the Object using JSON.stringify()
+
+### Displaying Object Properties
+The properties of an object can be displayed as a string:
+```js
+const person = {
+  name: "Alamin",
+  age: 20,
+  city: "London"
+};
+document.write(person["name"] + ", " + person["age"] + ", " + person["city"]);
+```
+
+### Displaying Properties in a Loop
+The properties of an object can be collected in a loop:
+```js
+const userInfo = {
+  name: "Rasel",
+  age : 20,
+  country: "Switzerland"
+};
+let show = "";
+// Loop Over Object
+for (let x in userInfo){
+  show += userInfo[x] + " ";
+};
+
+```
+> NOTE: We must use `userInfo[x]`. (Because `x` is the loop variable)
+
+### Display Object Using Object.values()
+`Object.values()` creates an array from the property values:
+```js 
+// Create an Object
+const myObj = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+// Create an Array
+const myArra = Object.value(myObj);
+document.write(myArra);
+```
