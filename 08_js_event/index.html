@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Event</title>
+</head>
+<body>
+  <button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
+
+  <p id="demo"></p>
+
+  <button onclick="this.innerHTML = Date()">Time?</button>
+  <br> <br>
+
+  <button onclick="displayDate()">What time?</button>
+  <p id="show"></p>
+
+  <script src="main.js"></script>
+</body>
+</html>
