@@ -6,6 +6,16 @@ let text = `He's ofen called "Jony"`;
 document.write(text + "<br>");
 
 // String Length
-let character = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+let character = 'ABCDEFG HIJKLMNOPQ RSTUVWXYZ';
 let length = character.length;
-document.write(length);
+document.write(length + "<br>");
+
+// Escape Characters
+let txt = "We are the so-called \"Vikings\" from the north.";
+document.write(txt + "<br>");
+
+// JavaScript Strings as Objects
+let x = "John";
+let y = new String("John");
+let z = x === y;
+document.write(z)
