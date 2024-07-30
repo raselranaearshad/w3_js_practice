@@ -30,3 +30,17 @@ The `matchAll()` method returns an iterator containing the results of matching a
 ```js
  const iterator = text.matchAll("Cats");
 ```
+
+## JavaScript String includes()
+The `includes()` method returns `true` if a string contains a specified value. Otherwise it returns `false`.
+```js
+let text = "Hello world, welcome to the universe.";
+text.includes("world");
+```
+
+## JavaScript String startsWith()
+The `startWith()` method returns `true` if a string contains a specified value. Otherwise it returns `false`.
+```js
+let text = "Hello world, welcome to the universe.";
+text.startsWith("Hello");
+```

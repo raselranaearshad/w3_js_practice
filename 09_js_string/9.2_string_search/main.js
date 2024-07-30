@@ -18,3 +18,11 @@ document.write(y.match(/ain/gi) + "<br>");
 let iterator = 'I love cats. Cats are very easy to love. Cats are very popular.';
 const showR = iterator.matchAll("Cats");
 document.write(Array.from(showR) + "<br>");
+
+// String includes() Method
+let A = 'Hello world, welcome to the universe.';
+document.write(A.includes("world") + "<br>");
+
+// String startWith() Method
+let B = "Hello World, welcome to the jangle";
+document.write(B.startsWith("jangle") + "<br>");
