@@ -32,4 +32,21 @@ document.write(texT.toUpperCase("Hello World") + "<br>");
 
 // String toLowerCase()
 let text1 = "Bangladesh";
-document.write(text1.toLowerCase("Bangladesh"));
+document.write(text1.toLowerCase("Bangladesh") + "<br>");
+
+// String repeat() Method
+let copy = "Hello Sokina!";
+document.write(copy.repeat(3) + "<br>");
+
+// String replace()
+let cng = "I love Sokina";
+document.write(cng.replace("Sokina", "Zorina") + "<br>");
+
+// String replaceAll()
+let repAll = "I love sokina & sokina";
+document.write(repAll.replaceAll("sokina", "Jorina") + "<br>");
+
+// String split()
+let a = "a,b,c,d,f";
+myArray = a.split(",");
+document.write(myArray[1] + "<br>");
