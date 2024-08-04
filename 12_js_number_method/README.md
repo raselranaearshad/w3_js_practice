@@ -49,3 +49,36 @@ console.log(x.valueOf());
 ```
 
 > NOTE: All JavaScript data types have a `valueOf()` and a `toString()` method.
+
+## Converting Variables to Numbers
+There are 3 JavaScript methods that can be used to convert a variable to a number.
+
+|Method|Description|
+|------|-----------|
+|Number()|Returns a number converted from its argument.|
+|parseFloat()|Parses its argument and returns a floating point number|
+|parseInt()|Parses its argument and returns a whole number|
+
+### The Number() Method
+
+The Number() method can be used to convert JavaScript variables to numbers.
+```js
+let x = Number("10.5");
+```
+> **NOTE** : If the number cannot be converted, `NaN` (Not a Number) is returned.
+
+### The Number() Method Used on Dates
+The `Date()` method returns the number of milliseconds since 1.1.1970.
+```js
+let x = new Date("2004-10-20");
+```
+### The parseInt() Method
+`parseInt()` parses a string and returns a whole number. Spaces are allowed. Only the first number is returned.
+```js
+let x = parseInt("10 years");
+```
+### The parseFloat() Method
+`parseFloat()` parses a string and returns a number. Spaces are allowed. Only the first number is returned.
+```js
+let x = parseFloat("10.33");
+```
