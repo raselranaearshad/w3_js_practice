@@ -33,3 +33,14 @@ document.write(y + "<br>");
 // The parseFloat() Method
 let Y = parseFloat("10.5 years");
 document.write(Y + "<br>");
+
+// The Number.isInteger() Method
+document.write(Number.isInteger(10) + '<br>');
+document.write(Number.isInteger(10.56) + '<br>');
+
+// The Number.isSafeInteger() Method
+document.write(Number.isSafeInteger(10) + "<br>");
+document.write(Number.isSafeInteger(12345678901234567890) + "<br>");
+
+// The Number.parseFloat() Method
+document.write(Number.parseFloat(10.5) + "<br>");

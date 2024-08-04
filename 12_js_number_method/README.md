@@ -82,3 +82,36 @@ let x = parseInt("10 years");
 ```js
 let x = parseFloat("10.33");
 ```
+
+## Number Object Methods
+hese object methods belong to the Number object:
+
+|Method| Description|
+|------|------------|
+|Number.isInteger()|Returns true if the argument is an integer|
+|Number.isSafeInteger()|Returns true if the argument is a safe integer|
+|Number.parseFloat()|Converts a string to a number|
+|Number.parseInt()|Converts a string to a whole number|
+
+> **NOTE :** Number Methods Cannot be Used on Variables.
+The number methods
+
+### The Number.isInteger() Method
+The `Number.isInteger()` method returns true if the argument is an integer.
+
+```js
+console.log(Number.isInteger(10));
+```
+### The Number.isSafeInteger() Method
+A safe integer is an integer that can be exactly represented as a double precision number.
+
+```js
+console.log(Number.isSafeInteger(12345678901234567890));
+```
+> **NOTE :** Safe integers are all integers from -(253 - 1) to +(253 - 1).
+
+### The Number.parseFloat() Method
+`Number.parseFloat()` parses a string and returns a number.
+```js
+console.log(Number.parseFloat(10));
+```
