@@ -40,3 +40,11 @@ for (let x = 0; x < jnLen; x++){
   console.log(jnLen[x])
 };
 ```
+You can also use the `Array.forEach()` function.
+```js
+const bilCars = ['Ford', 'BMW', 'Mitshubishi', 'Honda'];
+bilCars.forEach(myFunction);
+function myFunction(value) {
+  document.write(value + "<br>")
+};
+```

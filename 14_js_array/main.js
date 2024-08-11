@@ -28,3 +28,11 @@ let jnLenn = jnnFruits.length;
 for (let i = 0; i < jnLenn; i++) {
   document.write(jnnFruits[i] + "<br>");
 };
+
+// Looping array using forEach() function.
+const bilCars = ['Ford', 'BMW', 'Mitshubishi', 'Honda'];
+bilCars.forEach(myFunction);
+
+function myFunction(value) {
+  document.write(value + "<br>")
+};
