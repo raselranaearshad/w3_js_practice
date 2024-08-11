@@ -24,3 +24,9 @@ The JavaScript method `toString()` converts an array to a string of (comma separ
 const fruits = ["Apple", "Mango", "Banana", "Orange"];
 console.log(fruits.toString());
 ```
+### Accessing the Last Array Element
+```js
+const fruits = ["Mango", "Orange", "Banana"];
+let fruit = fruits[fruits.length - 1];
+console.log(fruit);
+```

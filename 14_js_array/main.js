@@ -16,3 +16,8 @@ document.write(herCars[1] + "<br>");
 // Converting an Array to a String
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 document.write(fruits.toString() + "<br>");
+
+// Accessing the Last Array Element
+const fruitss = ["Banana", "Mango", "Apple", "Strawberry"];
+let singleFruit = fruitss[fruitss.length - 1];
+document.write(singleFruit + "<br>");
