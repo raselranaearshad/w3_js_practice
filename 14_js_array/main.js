@@ -36,3 +36,8 @@ bilCars.forEach(myFunction);
 function myFunction(value) {
   document.write(value + "<br>")
 };
+
+// Adding Array Elements
+const bilFruits = ["Banana", "Apple", "Mango"];
+let add = bilFruits.push("Strawberry");
+document.write(bilFruits[3] + "<br>");
