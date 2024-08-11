@@ -30,3 +30,13 @@ const fruits = ["Mango", "Orange", "Banana"];
 let fruit = fruits[fruits.length - 1];
 console.log(fruit);
 ```
+
+### Looping Array Elements
+One way to loop through an array, is using a `for` loop.
+```js
+const jnFruits = ["Apple", "Strawberry", "Mango", "Banana"];
+let jnLen = jnFruits.length;
+for (let x = 0; x < jnLen; x++){
+  console.log(jnLen[x])
+};
+```

@@ -21,3 +21,10 @@ document.write(fruits.toString() + "<br>");
 const fruitss = ["Banana", "Mango", "Apple", "Strawberry"];
 let singleFruit = fruitss[fruitss.length - 1];
 document.write(singleFruit + "<br>");
+
+// Looping Array Elements
+const jnnFruits = ["Jackfruit", "Strawberry", "Mango", "Orange"];
+let jnLenn = jnnFruits.length;
+for (let i = 0; i < jnLenn; i++) {
+  document.write(jnnFruits[i] + "<br>");
+};
