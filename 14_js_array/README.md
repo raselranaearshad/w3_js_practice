@@ -13,3 +13,14 @@ const array_name = [item1, item2, item3, ...];
 ```js
 const myCars = new Array ("Saab", "Toyota", "Volvo");
 ```
+### Changing an Array Element 
+```js
+const cars = ["Saab", "Volvo", "BMW"];
+cars[0] = "Opel";
+```
+### Converting an Array to a String
+The JavaScript method `toString()` converts an array to a string of (comma separated) array values.
+```js
+const fruits = ["Apple", "Mango", "Banana", "Orange"];
+console.log(fruits.toString());
+```
