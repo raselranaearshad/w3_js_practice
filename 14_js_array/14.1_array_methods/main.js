@@ -27,3 +27,7 @@ document.write(myCars.push("Honda") + "<br>");
 const herCars = ['Mitshubishi', 'Honda'];
 let y = herCars.shift();
 document.write(y + "<br>");
+
+// JavaScript unshift() method
+const hisCars = ['Mitshubishi', 'Honda'];
+document.write(hisCars.unshift("M8 Competition") + "<br>");

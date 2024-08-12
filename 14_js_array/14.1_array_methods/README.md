@@ -4,6 +4,11 @@ The length property returns the `length` (size) of an array.
 const fruits = ["Mango", "Orange", "Banana", "Apple"];
 document.write(fruits.length + "<br>");
 ```
+The `length` property provides an easy way to append a new element to an array.
+```js
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits[fruits.length] = "Kiwi";
+```
 ### JavaScript Array `toString()`
 The JavaScript method `toString()` converts an array to a string of (comma separated) array values.
 ```js
@@ -47,4 +52,11 @@ The `shift()` method removes the first array element and "shifts" all other elem
 ```js
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 console.log(fruits.shift());
+```
+
+### JavaScript Array `unshift()`
+The `unshift()` method adds a new element to an array (at the beginning), and "unshifts" older elements.
+```js
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon");
 ```
