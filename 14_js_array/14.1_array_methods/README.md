@@ -60,3 +60,24 @@ The `unshift()` method adds a new element to an array (at the beginning), and "u
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.unshift("Lemon");
 ```
+
+### Array `delete()`
+```js
+const fruits = ["Orange", "Banana", "Mango"];
+console.log(delete fruits[0]);
+```
+> NOTE: Using `delete()` leaves undefined holes in the array.
+
+## Merging Arrays (Concatenating)
+* In programming languages, concatenation means joining strings end-to-end.
+* Concatenation "snow" and "ball" gives "snowball".
+* Concatenating arrays means joining arrays end-to-end.
+
+### JavaScript Array `concat()`
+The `concat()` method creates a new array by merging (concatenating) existing arrays.
+```js
+const myGirls = ["Cecilie", "Lone"];
+const myBoys = ["Emil", "Tobias", "Linus"];
+const myChildren = myBoys.concat(myGirls);
+console.log(myChildren);
+```

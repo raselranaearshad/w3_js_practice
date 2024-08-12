@@ -31,3 +31,13 @@ document.write(y + "<br>");
 // JavaScript unshift() method
 const hisCars = ['Mitshubishi', 'Honda'];
 document.write(hisCars.unshift("M8 Competition") + "<br>");
+
+// JavaScript delete() method
+const delFruits = ["Mango", "Orange", "Banana", "Apple"];
+document.write(delete delFruits[0] + "<br>" + delFruits + "<br>");
+
+// JavaScript concat() method
+const myBoys = ["Emil", "Tobias", "Linus"];
+const myGirls = ["Cecilie", "Lone"];
+const myChildren = myBoys.concat(myGirls);
+document.write(myChildren + "<br>"); 
