@@ -42,3 +42,31 @@ function maxValue(maxNum) {
   return Math.max.apply(null, maxNum);
 };
 document.write(maxValue(herNum) + "<br>");
+
+// Find min Number using home made function()
+const nayNum = [4, 11, 54, 23, 12, 2, 18, 48, 32, 31, 54];
+function findMinNum (minNum) {
+  let len = minNum.length;
+  let min = Infinity;
+  while (len--) {
+    if (minNum[len] < min) {
+      min = minNum[len]
+    };
+  }
+  return min
+};
+document.write(findMinNum(nayNum) + "<br>");
+
+// Find max Number using home made function()
+const alaNum = [4, 11, 54, 23, 12, 2, 18, 48, 32, 31, 54];
+function findMaxNum (maxNum){
+  let len = maxNum.length;
+  let max = -Infinity;
+  while (len--) {
+    if (maxNum[len] > max) {
+      max = maxNum[len]
+    };
+  }
+  return max
+};
+document.write(findMaxNum(alaNum) + "<br>");

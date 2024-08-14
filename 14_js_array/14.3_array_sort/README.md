@@ -66,3 +66,37 @@ console.log(sortNum[0]);  // sortNum[0] contains the lowest value
 console.log(sortNum[sortNum.length - 1]); // sortNum[sortNum.length-1] contains the highest value
 ```
 > NOTE : Sorting a whole array is a very inefficient method if you only want to find the highest (or lowest) value.
+
+### Find min or max value using home made function()
+The fastest code to find the highest number is to use a home made method.
+
+Find Min Number Example: 
+```js
+const nayNum = [4, 11, 54, 23, 12, 2, 18, 48, 32, 31, 54];
+function findMinNum (minNum) {
+  let len = minNum.length;
+  let min = Infinity;
+  while (len--) {
+    if (minNum[len] < min) {
+      min = minNum[len]
+    };
+  }
+  return min
+};
+console.log(findMinNum(nayNum));
+```
+Find Max Num Example:
+```js
+const alaNum = [4, 11, 54, 23, 12, 3, 18, 48, 32, 54];
+function findMaxNum (maxNum){
+  let leng = maxNum.length;
+  let max = -Infinity;
+  while(leng--){
+    if(maxNum[leng] > max){
+      max = maxNum[leng]
+    };
+  }
+  return max;
+};
+console.log(findMaxNum(alaNum));
+```
