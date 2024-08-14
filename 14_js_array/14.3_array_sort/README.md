@@ -50,3 +50,19 @@ When the `sort()` function compares two values, it sends the values to the `comp
 * If the result is positive, b is sorted before a.
 
 * If the result is 0, no changes are done with the sort order of the two values.
+
+## Find the Lowest (or Highest) Array Value
+To find the lowest or highest value you have 3 options:
+
+* Sort the array and read the first or last element
+* Use Math.min() or Math.max()
+* Write a home made function
+
+### Find Min or Max with sort()
+```js
+const numbers = [40, 100, 1, 5, 25, 10, 65, 77];
+const sortNum = numbers.sort(function (a, b){return a - b});
+console.log(sortNum[0]);  // sortNum[0] contains the lowest value
+console.log(sortNum[sortNum.length - 1]); // sortNum[sortNum.length-1] contains the highest value
+```
+> NOTE : Sorting a whole array is a very inefficient method if you only want to find the highest (or lowest) value.
