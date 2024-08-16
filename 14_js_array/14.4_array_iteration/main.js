@@ -27,3 +27,18 @@ function overFunction(value, index, array) {
 };
 const over18 = myNum.filter(overFunction);
 document.write(over18 + "<br>");
+
+// Array reduce() method:
+const herNum = [45, 5, 9, 16, 25];
+function totalNum(total, value, index, array) {
+  return total + value;
+};
+document.write(herNum.reduce(totalNum) + "<br>");
+
+// Array reduceRight() method:
+const herNumbers = [45, 4, 9, 16, 25];
+function herFunction(total, value) {
+  return total + value
+};
+let herTotal = herNumbers.reduceRight(herFunction);
+document.write(herTotal + "<br>");
