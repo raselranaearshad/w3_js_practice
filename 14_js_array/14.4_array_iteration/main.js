@@ -14,3 +14,16 @@ function myFunction(value) {
 const newArray = numbers.map(myFunction);
 document.write(newArray + "<br>");
 document.write(numbers + "<br>");
+
+// Array flatMap() method: 
+const myArray = [1, 2, 3, 4, 5];
+const newArra = myArray.flatMap(x => [x, x * 5]);
+document.write(newArra + "<br>");
+
+// Array filter() method:
+const myNum = [45, 4, 9, 16, 25];
+function overFunction(value, index, array) {
+  return value > 18;
+};
+const over18 = myNum.filter(overFunction);
+document.write(over18 + "<br>");

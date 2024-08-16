@@ -25,3 +25,21 @@ function myFunction (value){
 const newArray = numbers.map(myFunction);
 console.log(newArray);
 ```
+
+### JavaScript Array flatMap()
+The `flatMap()` method first maps all elements of an array and then creates a new array by flattening the array.
+```js
+const myArray = [1, 2, 3, 4, 5];
+const newArray = myArray.flatMap(x => [x, x * 5]);
+```
+
+### JavaScript Array filter()
+The `filter()` method creates a new array with array elements that pass a test.
+```js
+const numbers = [45, 4, 9, 16, 25];
+const over18 = numbers.filter(myFunction);
+function (value, index, array){
+  return value > 18
+}
+console.log(over18);
+```
